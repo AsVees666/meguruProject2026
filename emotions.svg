@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1624">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #f4d581;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: ZenMaruGothic-Regular, 'Zen Maru Gothic';
+      }
+
+      .cls-4, .cls-6 {
+        fill: #8b6f55;
+      }
+
+      .cls-7 {
+        fill: #fff4c7;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-size: 25px;
+      }
+
+      .cls-8 {
+        fill: #bed7d8;
+      }
+
+      .cls-9 {
+        fill: #f05a24;
+      }
+
+      .cls-10 {
+        fill: #9db3b9;
+        opacity: .62;
+      }
+
+      .cls-2 {
+        stroke: #8b6f55;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-11 {
+        fill: #eb8885;
+      }
+
+      .cls-12 {
+        fill: #f2a485;
+        opacity: .5;
+      }
+
+      .cls-13 {
+        fill: #f3c8b8;
+      }
+
+      .cls-14 {
+        fill: #f4eee5;
+      }
+    </style>
+  </defs>
+  <g id="_ベース背景_写真_" data-name="ベース背景（写真）">
+    <rect class="cls-14" width="750" height="1624"/>
+  </g>
+  <g id="_イライラバー" data-name="イライラバー">
+    <rect class="cls-12" x="521.98" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_しょんぼりバー" data-name="しょんぼりバー">
+    <rect class="cls-8" x="398.16" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_ワクワクバー" data-name="ワクワクバー">
+    <rect class="cls-13" x="274.24" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_キラキラバー" data-name="キラキラバー">
+    <rect class="cls-7" x="150.3" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_イライラつまみ" data-name="イライラつまみ">
+    <rect class="cls-9" x="521.96" y="901" width="77.82" height="162.44" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_しょんぼりつまみ" data-name="しょんぼりつまみ">
+    <rect class="cls-10" x="397.92" y="851.89" width="77.82" height="211.83" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_ワクワクつまみ" data-name="ワクワクつまみ">
+    <rect class="cls-11" x="274.22" y="955.05" width="77.82" height="108.67" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_キラキラつまみ" data-name="キラキラつまみ">
+    <rect class="cls-3" x="150.28" y="976.07" width="77.82" height="87.38" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_文字" data-name="文字">
+    <text class="cls-4" transform="translate(149.4297 1111.7161)"><tspan x="0" y="0">キラキラ</tspan></text>
+    <text class="cls-4" transform="translate(273.471 1111.7161)"><tspan x="0" y="0">ワクワク</tspan></text>
+    <text class="cls-4" transform="translate(390.5543 1111.7161)"><tspan x="0" y="0">しょんぼり</tspan></text>
+    <text class="cls-4" transform="translate(514.9691 1111.7161)"><tspan x="0" y="0">イライラ</tspan></text>
+  </g>
+  <g id="_日記記録ボタン" data-name="日記記録ボタン">
+    <rect class="cls-6" x="150.47" y="1231.03" width="449.07" height="63.41" rx="31.7" ry="31.7"/>
+    <text class="cls-5" transform="translate(300 1273.1965)"><tspan x="0" y="0">＋日記を書く</tspan></text>
+  </g>
+  <g id="_記録を終えるボタン" data-name="記録を終えるボタン">
+    <rect class="cls-6" x="150.47" y="1326.92" width="449.07" height="63.41" rx="31.7" ry="31.7"/>
+    <text class="cls-5" transform="translate(300 1369.0842)"><tspan x="0" y="0">記録を終える</tspan></text>
+  </g>
+  <g id="_完了ボタン" data-name="完了ボタン">
+    <g>
+      <rect class="cls-6" x="590.91" y="84.22" width="119.09" height="44.44" rx="22.22" ry="22.22"/>
+      <text class="cls-5" transform="translate(622.95 115.68)"><tspan x="0" y="0">完了</tspan></text>
+    </g>
+  </g>
+  <g id="_マーク位置" data-name="マーク位置">
+    <rect class="cls-1" x="226.82" y="276.86" width="302.46" height="302.46"/>
+  </g>
+  <g id="_メニュー" data-name="メニュー">
+    <g>
+      <line class="cls-2" x1="39.5" y1="84.22" x2="87.83" y2="84.22"/>
+      <line class="cls-2" x1="39.5" y1="101.2" x2="87.83" y2="101.2"/>
+      <line class="cls-2" x1="39.5" y1="118.18" x2="87.83" y2="118.18"/>
+    </g>
+  </g>
+</svg>
