@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1624">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: ZenMaruGothic-Medium, 'Zen Maru Gothic';
+        font-size: 25px;
+        font-weight: 500;
+      }
+
+      .cls-2, .cls-3, .cls-8, .cls-4 {
+        stroke: #8b6f55;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-8, .cls-4 {
+        stroke-width: 3px;
+      }
+
+      .cls-9 {
+        fill: #eb8885;
+      }
+
+      .cls-9, .cls-10, .cls-11 {
+        font-family: CezanneProN-M-83pv-RKSJ-H, 'FOT-Cezanne ProN';
+        font-size: 16.41px;
+      }
+
+      .cls-7, .cls-8, .cls-12, .cls-11 {
+        fill: #8b6f55;
+      }
+
+      .cls-10 {
+        fill: #036eb7;
+      }
+
+      .cls-13 {
+        letter-spacing: .25em;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        stroke-linejoin: round;
+      }
+
+      .cls-14 {
+        fill: #f4ac9b;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-17 {
+        fill: #f4eee5;
+      }
+    </style>
+  </defs>
+  <g id="_ベース背景_写真_" data-name="ベース背景（写真）">
+    <rect class="cls-17" width="750" height="1624"/>
+  </g>
+  <g id="_カレンダー" data-name="カレンダー">
+    <g>
+      <path class="cls-2" d="M88.46,1483.38h58.44v36.73c0,3.87-3.14,7.02-7.02,7.02h-44.4c-3.87,0-7.02-3.14-7.02-7.02v-36.73h0Z"/>
+      <path class="cls-8" d="M91.1,1477.07h53.16c1.46,0,2.64,1.18,2.64,2.64v2.91h-58.44v-2.91c0-1.46,1.18-2.64,2.64-2.64Z"/>
+      <rect class="cls-3" x="94.83" y="1469.38" width="4.46" height="11.2" rx="1.89" ry="1.89"/>
+      <rect class="cls-3" x="108.58" y="1469.38" width="4.46" height="11.2" rx="1.89" ry="1.89"/>
+      <rect class="cls-3" x="136.08" y="1469.38" width="4.46" height="11.2" rx="1.89" ry="1.89"/>
+      <rect class="cls-3" x="122.33" y="1469.38" width="4.46" height="11.2" rx="1.89" ry="1.89"/>
+      <rect class="cls-12" x="96.85" y="1488.57" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="108.23" y="1488.57" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="119.61" y="1488.57" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="130.98" y="1488.57" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="96.85" y="1501.5" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="108.23" y="1501.5" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="119.61" y="1501.5" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="130.98" y="1501.5" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="96.85" y="1514.42" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="108.23" y="1514.42" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="119.61" y="1514.42" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+      <rect class="cls-12" x="130.98" y="1514.42" width="7.53" height="7.53" rx="1.3" ry="1.3"/>
+    </g>
+  </g>
+  <g id="_ホーム" data-name="ホーム">
+    <path class="cls-12" d="M499.69,1503.55h-11.27v23.57h-13.05v-12.97c0-3.12-2.53-5.65-5.65-5.65s-5.65,2.53-5.65,5.65v12.97h-13.05v-23.57h-11.27c-1.86,0-2.8-2.26-1.48-3.58l29.97-29.97c.82-.82,2.15-.82,2.97,0l29.97,29.97c1.32,1.32.39,3.58-1.48,3.58Z"/>
+  </g>
+  <g id="_マイページ" data-name="マイページ">
+    <g>
+      <circle class="cls-12" cx="651.65" cy="1483.34" r="14.28"/>
+      <path class="cls-12" d="M672.92,1526.81h-42.54c0-14.48,9.52-26.21,21.26-26.21s21.28,11.73,21.28,26.21Z"/>
+    </g>
+  </g>
+  <g id="_検索" data-name="検索">
+    <g>
+      <path class="cls-2" d="M309.28,1490.25c0,4.52-1.44,8.71-3.88,12.12-1.35,1.89-2.99,3.54-4.88,4.88-3.41,2.43-7.59,3.88-12.11,3.88-11.53,0-20.87-9.35-20.87-20.88s9.34-20.87,20.87-20.87,20.87,9.35,20.87,20.87Z"/>
+      <path class="cls-12" d="M324.4,1525.61l-.62.64c-1.17,1.17-3.09,1.17-4.26,0l-18.99-18.99c1.89-1.35,3.54-2.99,4.88-4.88l18.99,18.99c1.17,1.17,1.17,3.07,0,4.24Z"/>
+    </g>
+  </g>
+  <g id="_メニュー" data-name="メニュー">
+    <g>
+      <line class="cls-4" x1="40" y1="84.22" x2="88.33" y2="84.22"/>
+      <line class="cls-4" x1="40" y1="101.2" x2="88.33" y2="101.2"/>
+      <line class="cls-4" x1="40" y1="118.18" x2="88.33" y2="118.18"/>
+    </g>
+  </g>
+  <g id="_月選択ボタン" data-name="月選択ボタン">
+    <rect class="cls-12" x="482.72" y="180.19" width="117.28" height="31.29" rx="15.64" ry="15.64"/>
+    <text class="cls-6" transform="translate(501.02 204.09)"><tspan x="0" y="0">2026.11</tspan></text>
+    <polyline class="cls-5" points="577.59 195.19 582.43 200.03 587.27 195.19"/>
+  </g>
+  <g id="_文字日記マーク" data-name="文字日記マーク">
+    <path class="cls-14" d="M131.8,389.78c.23,6.76-6.93,9.14-11.63,8.01-.23-.07-.46-.16-.68-.24-3.35-1.32-5.67-4.17-5.67-7.48,0-3.94,3.29-7.24,7.7-8.06.23-.04.47-.08.71-.11,6.22-.86,10.99.33,9.72,7.26-.03.21-.09.42-.16.62Z"/>
+  </g>
+  <g id="_日にち文字位置" data-name="日にち文字位置">
+    <rect class="cls-1" x="114.36" y="381.17" width="17.32" height="17.32"/>
+  </g>
+  <g id="_曜日文字_固定_" data-name="曜日文字(固定)">
+    <text class="cls-9" transform="translate(108.42 362.49)"><tspan x="0" y="0">Sun</tspan></text>
+    <text class="cls-11" transform="translate(191.18 362.49)"><tspan x="0" y="0">Mon</tspan></text>
+    <text class="cls-11" transform="translate(276.63 362.49)"><tspan class="cls-15" x="0" y="0">T</tspan><tspan x="8.58" y="0">ue</tspan></text>
+    <text class="cls-11" transform="translate(358.71 362.49)"><tspan class="cls-16" x="0" y="0">W</tspan><tspan x="14.73" y="0">ed</tspan></text>
+    <text class="cls-11" transform="translate(444.65 362.49)"><tspan x="0" y="0">Thu</tspan></text>
+    <text class="cls-11" transform="translate(531.98 362.49)"><tspan x="0" y="0">Fri</tspan></text>
+    <text class="cls-10" transform="translate(615.1 362.49)"><tspan x="0" y="0">Sat</tspan></text>
+  </g>
+  <g id="_カレンダー枠ガイド" data-name="カレンダー枠ガイド">
+    <rect class="cls-1" x="81.02" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="165.01" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="249.01" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="333" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="417" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="500.99" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="584.99" y="373.06" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="81.02" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="165.01" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="249.01" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="333" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="417" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="500.99" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="584.99" y="471.35" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="81.02" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="165.01" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="249.01" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="333" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="417" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="500.99" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="584.99" y="569.65" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="81.02" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="165.01" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="249.01" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="333" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="417" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="500.99" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="584.99" y="667.94" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="81.02" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="165.01" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="249.01" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="333" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="417" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="500.99" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="584.99" y="766.23" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="81.02" y="864.53" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="165.01" y="864.53" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="249.01" y="864.53" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="333" y="864.53" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="417" y="864.53" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="500.99" y="864.53" width="83.99" height="98.29"/>
+    <rect class="cls-1" x="584.99" y="864.53" width="83.99" height="98.29"/>
+  </g>
+  <g id="_マーク位置" data-name="マーク位置">
+    <rect class="cls-1" x="96.74" y="410.34" width="52.55" height="52.55"/>
+  </g>
+  <g id="_年表示" data-name="年表示">
+    <text class="cls-7" transform="translate(158.31 108.71)"><tspan x="0" y="0">202</tspan><tspan class="cls-13" x="34.92" y="0">6</tspan><tspan x="53.55" y="0">年</tspan></text>
+  </g>
+  <g id="_月表示" data-name="月表示">
+    <text class="cls-7" transform="translate(349.43 299.07)"><tspan x="0" y="0">1</tspan><tspan class="cls-13" x="9.95" y="0">1</tspan><tspan x="26.15" y="0">月</tspan></text>
+  </g>
+</svg>
