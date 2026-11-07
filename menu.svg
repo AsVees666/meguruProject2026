@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600.05 1624">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #d8c3a5;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #8b6f55;
+        font-family: ZenMaruGothic-Medium, 'Zen Maru Gothic';
+        font-size: 25px;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        stroke: #8b6f55;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #f4eee5;
+      }
+    </style>
+  </defs>
+  <g id="_ベース背景_写真_" data-name="ベース背景（写真）">
+    <rect class="cls-5" x="0" width="600" height="1624"/>
+  </g>
+  <g id="_バツボタン" data-name="バツボタン">
+    <g>
+      <line class="cls-3" x1="539.54" y1="84.22" x2="505.58" y2="118.18"/>
+      <line class="cls-3" x1="505.58" y1="84.22" x2="539.54" y2="118.18"/>
+    </g>
+  </g>
+  <g id="_固定文字" data-name="固定文字">
+    <text class="cls-4" transform="translate(150.93 276.81)"><tspan x="0" y="0">ホーム</tspan></text>
+    <text class="cls-4" transform="translate(150.98 666.81)"><tspan x="0" y="0">印刷する・プレビュー</tspan></text>
+    <text class="cls-4" transform="translate(150.98 536.81)"><tspan x="0" y="0">記録を検索</tspan></text>
+    <text class="cls-4" transform="translate(150.93 408.35)"><tspan x="0" y="0">リーフィ図鑑</tspan></text>
+  </g>
+  <g id="_ホーム" data-name="ホーム">
+    <rect class="cls-1" y="204.35" width="600" height="130"/>
+  </g>
+  <g id="_印刷ボタン" data-name="印刷ボタン">
+    <rect class="cls-1" x=".05" y="594.35" width="600" height="130"/>
+  </g>
+  <g id="_検索ボタン" data-name="検索ボタン">
+    <rect class="cls-1" y="464.35" width="600" height="130"/>
+  </g>
+  <g id="_メニュー" data-name="メニュー">
+    <g>
+      <line class="cls-3" x1="40" y1="84.22" x2="88.33" y2="84.22"/>
+      <line class="cls-3" x1="40" y1="101.2" x2="88.33" y2="101.2"/>
+      <line class="cls-3" x1="40" y1="118.18" x2="88.33" y2="118.18"/>
+    </g>
+  </g>
+  <g id="_固定オブジェクト" data-name="固定オブジェクト">
+    <line class="cls-2" y1="334.35" x2="600" y2="334.35"/>
+    <line class="cls-2" x1=".05" y1="594.35" x2="600.05" y2="594.35"/>
+    <line class="cls-2" x1=".05" y1="724.35" x2="600.05" y2="724.35"/>
+    <line class="cls-2" y1="204.35" x2="600" y2="204.35"/>
+    <line class="cls-2" y1="464.35" x2="600" y2="464.35"/>
+  </g>
+  <g id="_図鑑ボタン" data-name="図鑑ボタン">
+    <rect class="cls-1" y="334.35" width="600" height="130"/>
+  </g>
+</svg>
