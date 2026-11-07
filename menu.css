@@ -1,0 +1,43 @@
+
+/* メニュー全体を覆う暗い背景 */
+#menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* メニューを開いている状態 */
+#menu-overlay.is-open {
+  display: block;
+}
+
+/* 左側のメニュー本体 */
+#menu-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(82vw, 390px);
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  background: #f4eee5;
+}
+
+/* SVGの縦横比を維持 */
+#menu-panel svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* メニュー内のクリックできる場所 */
+#menu-panel g {
+  cursor: pointer;
+}
+
+/* メニュー表示中は背景ページをスクロールさせない */
+body.menu-open {
+  overflow: hidden;
+}
