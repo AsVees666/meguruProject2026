@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4eee5">
+<title>感情を記録する</title>
+
+<!-- メニューオーバーレイの設定 -->
+<link rel="stylesheet" href="menu.css">
+<script src="menu.js" defer></script>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f4eee5;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+/* アプリ全体のフレックスレイアウト（ホーム画面と完全統一） */
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #f4eee5;
+}
+
+/* ヘッダー領域 */
+header {
+  height: 70px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+/* メイン領域：画面サイズに合わせて伸縮・中央配置 */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* SVGパーツのレスポンシブスタイル */
+.header-svg {
+  height: 36px;
+  width: auto;
+}
+
+#art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+  max-height: 100%;
+  flex: none;
+  touch-action: none;
+}
+
+#_キラキラバー, #_ワクワクバー, #_イライラバー, #_しょんぼりバー,
+#_キラキラつまみ, #_ワクワクつまみ, #_イライラつまみ, #_しょんぼりつまみ {
+  cursor: ns-resize;
+  touch-action: none;
+}
+
+#_完了ボタン, #_日記記録ボタン, #_記録を終えるボタン {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+svg [role="button"], .interactive-btn {
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- ヘッダー（メニュー） -->
+  <header>
+    <svg class="header-svg" viewBox="30 70 70 60" xmlns="http://www.w3.org/2000/svg">
+      <g id="_メニュー" data-name="メニュー" role="button" aria-label="メニュー">
+        <line stroke="#8b6f55" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" fill="none" x1="40" y1="84.22" x2="88.33" y2="84.22"/>
+        <line stroke="#8b6f55" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" fill="none" x1="40" y1="101.2" x2="88.33" y2="101.2"/>
+        <line stroke="#8b6f55" stroke-width="3" stroke-linecap="round"
