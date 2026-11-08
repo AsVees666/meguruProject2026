@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <!-- メニューオーバーレイの設定 -->
+<link rel="stylesheet" href="menu.css">
+<script src="menu.js" defer></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4eee5">
+<title>感情を記録する</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #f4eee5;
+    font-family: "Zen Maru Gothic", sans-serif;
+  }
+  body {
+    position: fixed;
+    inset: 0;
+  }
+  #stage {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #f4eee5;
+  }
+  #art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  flex: none;
+  touch-action: none;
+}
+  #_キラキラバー, #_ワクワクバー, #_イライラバー, #_しょんぼりバー,
+  #_キラキラつまみ, #_ワクワクつまみ, #_イライラつまみ, #_しょんぼりつまみ {
+    cursor: ns-resize;
+    touch-action: none;
+  }
+  #_完了ボタン, #_日記記録ボタン, #_記録を終えるボタン {
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+</style>
+</head>
+<body>
+<div id="stage">
+<svg id="art" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1624">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #f4d581;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: ZenMaruGothic-Regular, 'Zen Maru Gothic';
+      }
+
+      .cls-4, .cls-6 {
+        fill: #8b6f55;
+      }
+
+      .cls-7 {
+        fill: #fff4c7;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-size: 25px;
+      }
+
+      .cls-8 {
+        fill: #bed7d8;
+      }
+
+      .cls-9 {
+        fill: #f05a24;
+      }
+
+      .cls-10 {
+        fill: #9db3b9;
+        opacity: .62;
+      }
+
+      .cls-2 {
+        stroke: #8b6f55;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-11 {
+        fill: #eb8885;
+      }
+
+      .cls-12 {
+        fill: #f2a485;
+        opacity: .5;
+      }
+
+      .cls-13 {
+        fill: #f3c8b8;
+      }
+
+      .cls-14 {
+        fill: #f4eee5;
+      }
+    </style>
+  </defs>
+  <g id="_ベース背景_写真_" data-name="ベース背景（写真）">
+    <rect class="cls-14" width="750" height="1624"/>
+  </g>
+  <g id="_イライラバー" data-name="イライラバー">
+    <rect class="cls-12" x="521.98" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_しょんぼりバー" data-name="しょんぼりバー">
+    <rect class="cls-8" x="398.16" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_ワクワクバー" data-name="ワクワクバー">
+    <rect class="cls-13" x="274.24" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_キラキラバー" data-name="キラキラバー">
+    <rect class="cls-7" x="150.3" y="786.01" width="77.79" height="277.43" rx="38.89" ry="38.89"/>
+  </g>
+  <g id="_イライラつまみ" data-name="イライラつまみ">
+    <rect class="cls-9" x="521.96" y="901" width="77.82" height="162.44" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_しょんぼりつまみ" data-name="しょんぼりつまみ">
+    <rect class="cls-10" x="397.92" y="851.89" width="77.82" height="211.83" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_ワクワクつまみ" data-name="ワクワクつまみ">
+    <rect class="cls-11" x="274.22" y="955.05" width="77.82" height="108.67" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_キラキラつまみ" data-name="キラキラつまみ">
+    <rect class="cls-3" x="150.28" y="976.07" width="77.82" height="87.38" rx="38.91" ry="38.91"/>
+  </g>
+  <g id="_文字" data-name="文字">
+    <text class="cls-4" transform="translate(149.4297 1111.7161)"><tspan x="0" y="0">キラキラ</tspan></text>
+    <text class="cls-4" transform="translate(273.471 1111.7161)"><tspan x="0" y="0">ワクワク</tspan></text>
+    <text class="cls-4" transform="translate(390.5543 1111.7161)"><tspan x="0" y="0">しょんぼり</tspan></text>
+    <text class="cls-4" transform="translate(514.9691 1111.7161)"><tspan x="0" y="0">イライラ</tspan></text>
+  </g>
+  <g id="_日記記録ボタン" data-name="日記記録ボタン">
+    <rect class="cls-6" x="150.47" y="1231.03" width="449.07" height="63.41" rx="31.7" ry="31.7"/>
+    <text class="cls-5" transform="translate(300 1273.1965)"><tspan x="0" y="0">＋日記を書く</tspan></text>
+  </g>
+  <g id="_記録を終えるボタン" data-name="記録を終えるボタン">
+    <rect class="cls-6" x="150.47" y="1326.92" width="449.07" height="63.41" rx="31.7" ry="31.7"/>
+    <text class="cls-5" transform="translate(300 1369.0842)"><tspan x="0" y="0">記録を終える</tspan></text>
+  </g>
+  <g id="_完了ボタン" data-name="完了ボタン">
+    <g>
+      <rect class="cls-6" x="590.91" y="84.22" width="119.09" height="44.44" rx="22.22" ry="22.22"/>
+      <text class="cls-5" transform="translate(622.95 115.68)"><tspan x="0" y="0">完了</tspan></text>
+    </g>
+  </g>
+  <g id="_マーク位置" data-name="マーク位置">
+    <rect class="cls-1" x="226.82" y="276.86" width="302.46" height="302.46"/>
+    <image id="emotion-mark-image" x="226.82" y="276.86" width="302.46" height="302.46"
+           preserveAspectRatio="xMidYMid meet" visibility="hidden"/>
+  </g>
+  <g id="_メニュー" data-name="メニュー">
+    <g>
+      <line class="cls-2" x1="39.5" y1="84.22" x2="87.83" y2="84.22"/>
+      <line class="cls-2" x1="39.5" y1="101.2" x2="87.83" y2="101.2"/>
+      <line class="cls-2" x1="39.5" y1="118.18" x2="87.83" y2="118.18"/>
+    </g>
+  </g>
+</svg>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const svg = document.getElementById("art");
+  const markImage = document.getElementById("emotion-mark-image");
+  const MARK_NAMES = {
+    hokkori: "ほっこり",
+    massara: "まっさら",
+    ukiuki: "うきうき",
+    meramera: "めらめら",
+    sowasowa: "そわそわ",
+    punpun: "ぷんぷん",
+    moyamoya: "もやもや",
+    shinmiri: "しんみり",
+    gakkuri: "がっくり",
+    hetahhe: "へとへと"
+  };
+
+  // 判定座標は、以前決めた円環モデル参考の独自分類を引き継ぐ。
+  const TYPES = [
+    { id: "hokkori",  x:  1.5, y: -1.5 },
+    { id: "ukiuki",   x:  3.5, y:  1.5 },
+    { id: "meramera", x:  2.0, y:  4.0 },
+    { id: "sowasowa", x: -1.0, y:  3.0 },
+    { id: "punpun",   x: -3.0, y:  3.0 },
+    { id: "moyamoya", x: -4.0, y:  0.0 },
+    { id: "shinmiri", x: -2.0, y: -2.0 },
+    { id: "gakkuri",  x: -4.0, y: -2.0 },
+    { id: "hetahhe",  x: -3.0, y: -3.0 }
+  ];
+
+  // 操作中の位置は小数で保持し、見た目は滑らかに動かす。
+  // 感情の分類・保存時には、最も近い0〜4の段階に変換する。
+  // 判定配列の順番は [キラキラ, ワクワク, イライラ, しょんぼり]。
+  const values = { kirakira: 0, wakuwaku: 0, iraira: 0, shonbori: 0 };
+
+  // 「完了」で確定した感情。スライダーを動かすと未確定に戻す。
+  let confirmedEmotion = null;
+  let hasConfirmedEmotion = false;
+
+  function getLevels() {
+    return {
+      kirakira: Math.max(0, Math.min(4, Math.round(values.kirakira))),
+      wakuwaku: Math.max(0, Math.min(4, Math.round(values.wakuwaku))),
+      iraira: Math.max(0, Math.min(4, Math.round(values.iraira))),
+      shonbori: Math.max(0, Math.min(4, Math.round(values.shonbori)))
+    };
+  }
+
+  // SVGの左からの表示順に対応づける。デザイン上の配置・色は変更しない。
+  const sliders = [
+    { key: "kirakira", trackId: "_キラキラバー", thumbId: "_キラキラつまみ" },
+    { key: "wakuwaku", trackId: "_ワクワクバー", thumbId: "_ワクワクつまみ" },
+    { key: "shonbori", trackId: "_しょんぼりバー", thumbId: "_しょんぼりつまみ" },
+    { key: "iraira", trackId: "_イライラバー", thumbId: "_イライラつまみ" }
+  ];
+
+  const geometry = sliders.map(slider => {
+    const track = document.querySelector(`#${CSS.escape(slider.trackId)} rect`);
+    const thumb = document.querySelector(`#${CSS.escape(slider.thumbId)} rect`);
+    return {
+      ...slider,
+      trackX: Number(track.getAttribute("x")),
+      trackY: Number(track.getAttribute("y")),
+      trackWidth: Number(track.getAttribute("width")),
+      trackHeight: Number(track.getAttribute("height")),
+      thumbRect: thumb,
+      thumbWidth: Number(thumb.getAttribute("width")),
+      thumbRx: thumb.getAttribute("rx"),
+      bottom: Number(track.getAttribute("y")) + Number(track.getAttribute("height"))
+    };
+  });
+
+  function classifyEmotion() {
+    const levels = getLevels();
+    const v = [levels.kirakira, levels.wakuwaku, levels.iraira, levels.shonbori];
+    if (v.every(n => n === 0)) return null;
+
+    // 4本が同じ低い位置にそろう場合は「まっさら」。
+    if (v.every(n => n === 1) || v.every(n => n === 2)) return "massara";
+
+    const [k, w, i, s] = v;
+    const x = k + w - i - s;
+    const y = -k + w + i - s;
+
+    let selected = null;
+    let nearest = Infinity;
+    for (const type of TYPES) {
+      const distance = (x - type.x) ** 2 + (y - type.y) ** 2;
+      if (distance < nearest) {
+        nearest = distance;
+        selected = type.id;
+      }
+    }
+    return selected;
+  }
+
+  // 625通りを全走査し、0以外が必ず10種類のいずれかに分類されることを確認。
+  function validateClassification() {
+    for (let k = 0; k <= 4; k++) {
+      for (let w = 0; w <= 4; w++) {
+        for (let i = 0; i <= 4; i++) {
+          for (let s = 0; s <= 4; s++) {
+            if (k === 0 && w === 0 && i === 0 && s === 0) continue;
+            const x = k + w - i - s;
+            const y = -k + w + i - s;
+            if (k === 1 && w === 1 && i === 1 && s === 1) continue;
+            if (k === 2 && w === 2 && i === 2 && s === 2) continue;
+            const hasType = TYPES.some(type =>
+              Number.isFinite((x - type.x) ** 2 + (y - type.y) ** 2)
+            );
+            if (!hasType) throw new Error("感情分類に未対応の組み合わせがあります。");
+          }
+        }
+      }
+    }
+  }
+
+ function updateThumb(item) {
+    const value = values[item.key];
+
+    // ぴったり0のときだけ非表示。0から動き始めたら少しずつ現れる。
+    if (value <= 0) {
+      item.thumbRect.style.display = "none";
+      item.thumbRect.style.opacity = "0";
+      return;
+    }
+
+    item.thumbRect.style.display = "";
+
+    // 0より少しでも動かしたら、つまみをはっきり表示する。
+    item.thumbRect.style.opacity = "1";
+
+    // 小数の値をそのまま使い、ドラッグ中も滑らかに動かす。
+    const minHeight = item.thumbWidth;
+    const travel = item.trackHeight - minHeight;
+    const height = minHeight + (value / 4) * travel;
+    const y = item.bottom - height;
+
+    item.thumbRect.setAttribute("y", y.toFixed(2));
+    item.thumbRect.setAttribute("height", height.toFixed(2));
+    item.thumbRect.setAttribute("rx", item.thumbRx);
+    item.thumbRect.setAttribute("ry", item.thumbRx);
+  }
+
+  function updateAllThumbs() {
+    geometry.forEach(updateThumb);
+  }
+
+  function clearMark() {
+    // 値が変更されたら、確定状態も解除する。
+    hasConfirmedEmotion = false;
+    confirmedEmotion = null;
+    markImage.setAttribute("visibility", "hidden");
+    markImage.removeAttribute("href");
+    markImage.removeAttributeNS("http://www.w3.org/1999/xlink", "href");
+  }
+
+  function showEmotionMark() {
+    // 「完了」を押した時点の値から感情を判定して確定する。
+    const id = classifyEmotion();
+    hasConfirmedEmotion = true;
+
+    if (!id) {
+      confirmedEmotion = null;
+      markImage.setAttribute("visibility", "hidden");
+      markImage.removeAttribute("href");
+      markImage.removeAttributeNS("http://www.w3.org/1999/xlink", "href");
+      return null;
+    }
+
+    const filename = MARK_NAMES[id] + ".png";
+    confirmedEmotion = { id, name: MARK_NAMES[id], filename };
+    markImage.setAttribute("href", filename);
+    markImage.setAttribute("visibility", "visible");
+    return confirmedEmotion;
+  }
+
+  function setSliderValue(item, clientY) {
+    const point = svg.createSVGPoint();
+    point.x = 0;
+    point.y = clientY;
+    const local = point.matrixTransform(svg.getScreenCTM().inverse());
+
+    const minHeight = item.thumbWidth;
+    const travel = item.trackHeight - minHeight;
+    const centerBottom = item.bottom - minHeight / 2;
+    const centerTop = item.trackY + minHeight / 2;
+    const clampedY = Math.max(centerTop, Math.min(centerBottom, local.y));
+    const ratio = travel === 0 ? 0 : (centerBottom - clampedY) / travel;
+    // 操作中は整数に丸めず、小数の位置をそのまま保持する。
+    values[item.key] = Math.max(0, Math.min(4, ratio * 4));
+    updateThumb(item);
+    clearMark(); // 数値を変更したら、再度「完了」を押すまでマークは非表示
+  }
+
+  let active = null;
+  let activePointerId = null;
+
+  geometry.forEach(item => {
+    const trackGroup = document.getElementById(item.trackId);
+    const thumbGroup = document.getElementById(item.thumbId);
+
+    const begin = event => {
+      active = item;
+      activePointerId = event.pointerId;
+      if (event.currentTarget.setPointerCapture) {
+        try { event.currentTarget.setPointerCapture(event.pointerId); } catch (_) {}
+      }
+      setSliderValue(item, event.clientY);
+      event.preventDefault();
+    };
+
+    trackGroup.addEventListener("pointerdown", begin);
+    thumbGroup.addEventListener("pointerdown", begin);
+  });
+
+  document.addEventListener("pointermove", event => {
+    if (!active || event.pointerId !== activePointerId) return;
+    setSliderValue(active, event.clientY);
+    event.preventDefault();
+  }, { passive: false });
+
+  function endDrag(event) {
+    if (active && (activePointerId === null || event.pointerId === activePointerId)) {
+      active = null;
+      activePointerId = null;
+    }
+  }
+  document.addEventListener("pointerup", endDrag);
+  document.addEventListener("pointercancel", endDrag);
+
+  function makeButton(id, callback) {
+    const element = document.getElementById(id);
+    element.setAttribute("role", "button");
+    element.setAttribute("tabindex", "0");
+    element.addEventListener("click", callback);
+    element.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        callback();
+      }
+    });
+  }
+
+  makeButton("_完了ボタン", () => {
+    const result = showEmotionMark();
+    window.dispatchEvent(new CustomEvent("emotion:classified", {
+      detail: {
+        values: getLevels(),
+        emotion: result
+      }
+    }));
+  });
+
+  function localDateString() {
+    const now = new Date();
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, "0");
+    const d = String(now.getDate()).padStart(2, "0");
+    return `${y}-${m}-${d}`;
+  }
+
+  function saveRecord() {
+    const emotionId = hasConfirmedEmotion
+      ? (confirmedEmotion ? confirmedEmotion.id : null)
+      : classifyEmotion();
+    const record = {
+      date: localDateString(),
+      values: getLevels(),
+      emotionId,
+      emotionName: emotionId ? MARK_NAMES[emotionId] : null,
+      markFile: emotionId ? MARK_NAMES[emotionId] + ".png" : null,
+      savedAt: new Date().toISOString()
+    };
+
+    // 同じ日付の記録は同じキーに保存し、上書きする。
+    localStorage.setItem("emotion-record-" + record.date, JSON.stringify(record));
+    window.dispatchEvent(new CustomEvent("emotion:save-request", { detail: record }));
+    return record;
+  }
+
+  makeButton("_メニュー", () => {
+  window.openMenu();
+  });
+
+  makeButton("_日記記録ボタン", () => {
+    window.location.href = "kiroku.html";
+  });
+
+  makeButton("_記録を終えるボタン", () => {
+    try {
+      saveRecord();
+      window.alert("保存が完了しました。");
+      window.location.href = "index.html";
+    } catch (error) {
+      console.error(error);
+      window.alert("保存できませんでした。もう一度お試しください。");
+    }
+  });
+
+  // 外部画面・日記画面から値を確認できるようにする。
+  window.emotionInput = {
+    getValues: () => getLevels(),
+    getContinuousValues: () => ({ ...values }),
+    classify: classifyEmotion,
+    getConfirmedEmotion: () => hasConfirmedEmotion ? confirmedEmotion : null,
+    isConfirmed: () => hasConfirmedEmotion,
+    setValues: next => {
+      const keys = ["kirakira", "wakuwaku", "iraira", "shonbori"];
+      if (!next || keys.some(key => !Number.isInteger(next[key]) || next[key] < 0 || next[key] > 4)) {
+        throw new Error("4つのバーに0〜4の整数を指定してください。");
+      }
+      keys.forEach(key => values[key] = next[key]);
+      updateAllThumbs();
+      clearMark();
+      return classifyEmotion();
+    }
+  };
+
+  validateClassification();
+  updateAllThumbs();
+})();
+
+
+
+</script>
+</body>
+</html>
